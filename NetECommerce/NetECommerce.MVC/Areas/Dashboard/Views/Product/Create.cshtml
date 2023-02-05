@@ -1,0 +1,54 @@
+﻿@model ProductVM
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="card mt-2 mb-4">
+    <div class="card-header">
+        <h3>New Category</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create" asp-controller="Product" method="post" enctype="multipart/form-data">
+            <div class="mb-2">
+
+                <label>Product Name</label>
+                <input type="text" class="form-control" asp-for="ProductName" />
+
+            </div>
+
+            <div class="mb-2">
+                <label>UnitPrice</label>
+                <input type="number" class="form-control" asp-for="UnitPrice" />
+            </div>
+
+            <div class="mb-2">
+                <label>Stock</label>
+                <input type="number" class="form-control" asp-for="UnitsInStock" />
+            </div>
+
+            <div class="mb-2">
+                <label>Description</label>
+             <textarea cols="5" rows="10" asp-for="Description" class="form-control"></textarea>
+            </div>
+
+
+            <div class="mb-2">
+                <label>Category</label>
+                <select asp-items="@ViewBag.Categories" asp-for="CategoryId" class="form-control custom-select">
+                </select>
+            </div>
+            <div class="mb-2">
+                <label>Supplier</label>
+                <select asp-items="@ViewBag.Suppliers" asp-for="SupplierId" class="form-control custom-select">
+                </select>
+            </div>
+            <div class="mb-2">
+                <label>Product Image</label>
+                <input type="file" class="form-control" name="ImagePath" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+

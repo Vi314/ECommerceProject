@@ -1,0 +1,64 @@
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.deps.json
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.json
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.dev.json
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.dll
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.pdb
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.AssemblyReference.cache
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfoInputs.cache
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfo.cs
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CopyComplete
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.genruntimeconfig.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.deps.json
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.json
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.dev.json
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.dll
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.pdb
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.AssemblyReference.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfoInputs.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfo.cs
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CopyComplete
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.genruntimeconfig.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.deps.json
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.json
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.dev.json
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.dll
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.pdb
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.AssemblyReference.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfoInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfo.cs
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CopyComplete
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.genruntimeconfig.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.deps.json
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.json
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.runtimeconfig.dev.json
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.dll
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\bin\Debug\netcoreapp3.1\NetECommerce.Entity.pdb
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.AssemblyReference.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfoInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.AssemblyInfo.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.csproj.CopyComplete
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.dll
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.pdb
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetEcommerce.DAL\obj\Debug\netcoreapp3.1\NetEcommerce.DAL.genruntimeconfig.cache

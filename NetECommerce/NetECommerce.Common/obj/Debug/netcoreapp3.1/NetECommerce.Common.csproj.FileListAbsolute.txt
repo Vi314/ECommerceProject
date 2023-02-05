@@ -1,0 +1,40 @@
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.deps.json
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.AssemblyReference.cache
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfoInputs.cache
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfo.cs
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.CoreCompileInputs.cache
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\FatihGunalp\Desktop\YZL 3162\Project\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.deps.json
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.AssemblyReference.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfoInputs.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfo.cs
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.CoreCompileInputs.cache
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\Viraldo\Downloads\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.deps.json
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.AssemblyReference.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfoInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfo.cs
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.CoreCompileInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\Viraldo\Desktop\Project-main\30.01\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.deps.json
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\bin\Debug\netcoreapp3.1\NetECommerce.Common.pdb
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.AssemblyReference.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfoInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.AssemblyInfo.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.csproj.CoreCompileInputs.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.dll
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.Common\obj\Debug\netcoreapp3.1\NetECommerce.Common.pdb

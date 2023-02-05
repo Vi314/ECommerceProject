@@ -1,0 +1,60 @@
+﻿@model List<Supplier>
+@{
+    ViewData["Title"] = "Suppliers";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+@if (TempData["result"] != null)
+{
+    <div class="alert alert-info alert-dismissible mt-2">
+        <span>@TempData["result"]</span>
+    </div>
+}
+<div class="card mb-4 mt-2">
+    <div class="card-header">
+        <div class="d-flex justify-content-between">
+            <h3>@ViewData["Title"]</h3>
+            <a class="btn btn-success" asp-action="Create" asp-controller="Supplier">New Supplier</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>CompanyName</th>
+                    <th>ContactTitle</th>
+                    <th>ContactNumber</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>Region</th>
+                    <th>PostalCode</th>
+                    <th>Country</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var supplier in Model)
+                    {
+                        <tr>
+                            <td>@supplier.Id</td>
+                            <td>@supplier.CompanyName</td>
+                            <td>@supplier.ContactTitle</td>
+                            <td>@supplier.ContactNumber</td>
+                            <td>@supplier.Address</td>
+                            <td>@supplier.City</td>
+                            <td>@supplier.Region</td>
+                            <td>@supplier.PostalCode</td>
+                            <td>@supplier.Country</td>
+                            <td>
+                                <a class="btn btn-sm btn-warning" asp-action="Update" asp-asp-controller="Supplier" asp-route-id="@supplier.Id">Update</a>
+                                |
+                                <a class="btn btn-sm btn-danger" asp-action="Delete" asp-asp-controller="Supplier" asp-route-id="@supplier.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
