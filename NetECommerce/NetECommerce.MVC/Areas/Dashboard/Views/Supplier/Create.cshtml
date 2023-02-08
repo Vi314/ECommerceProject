@@ -15,6 +15,7 @@
             <div class="mb-2">
                 <label>Company Name</label>
                 <input type="text" class="form-control" asp-for="CompanyName" />
+                <span asp-validation-for="CompanyName" class="RequiredMessage"></span>
             </div>
 
             <div class="mb-2">
@@ -25,31 +26,37 @@
             <div class="mb-2">
                 <label>ContactNumber</label>
                 <input type="tel" class="form-control" asp-for="ContactNumber" />
+                <span asp-validation-for="ContactNumber" class="RequiredMessage"></span>
             </div>
 
             <div class="mb-2">
                 <label>Address</label>
                 <input cols="5" rows="7" type="text" class="form-control" asp-for="Address" />
+                <span asp-validation-for="Address" class="RequiredMessage"></span>
             </div>
 
             <div class="mb-2">
                 <label>City</label>
                 <input type="text" class="form-control" asp-for="City" />
+                <span asp-validation-for="City" class="RequiredMessage"></span>
             </div>
 
             <div class="mb-2">
                 <label>Region</label>
                 <input type="text" class="form-control" asp-for="Region" />
+                <span asp-validation-for="Region" class="RequiredMessage"></span>
             </div>
 
             <div class="mb-2">
                 <label>PostalCode</label>
                 <input type="text" class="form-control" asp-for="PostalCode" />
+                <span asp-validation-for="PostalCode" class="RequiredMessage"></span>
             </div>
 
             <div class="mb-2">
                 <label>Country</label>
                 <input type="text" class="form-control" asp-for="Country" />
+                <span asp-validation-for="Country" class="RequiredMessage"></span>
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>

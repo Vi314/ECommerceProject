@@ -57,7 +57,7 @@ namespace NetECommerce.MVC.Controllers
             cartSession.AddItem(cartItem);
             SessionHelper.SetSessionJson(HttpContext.Session, "sepet", cartSession);
 
-
+            ViewData["ItemCount"] = Convert.ToInt32(cartSession._myCart.Count);
             return RedirectToAction("Index");
         }
 

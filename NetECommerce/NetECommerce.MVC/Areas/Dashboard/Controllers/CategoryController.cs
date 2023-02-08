@@ -29,16 +29,22 @@ namespace NetECommerce.MVC.Areas.Dashboard.Controllers
         [HttpPost]
         public IActionResult Create(CategoryVM categoryVM)
         {
-            Category category = new Category
+            if (ModelState.IsValid)
             {
-                CategoryName = categoryVM.CategoryName,
-                Description = categoryVM.Description
-            };
-           
-            
-            
-           TempData["result"]= _categoryService.CreateCategory(category);
-            return RedirectToAction("Index");
+                Category category = new Category
+                {
+                    CategoryName = categoryVM.CategoryName,
+                    Description = categoryVM.Description
+                };
+
+                TempData["result"] = _categoryService.CreateCategory(category);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(categoryVM);
+            }
+
         }
 
         public IActionResult Delete(int id)
@@ -65,8 +71,7 @@ namespace NetECommerce.MVC.Areas.Dashboard.Controllers
         [HttpPost]
         public IActionResult Update(Category category)
         {
-            
-            TempData["result"]= _categoryService.UpdateCategory(category);
+            TempData["result"] = _categoryService.UpdateCategory(category);
             return RedirectToAction("Index");
         }
     }

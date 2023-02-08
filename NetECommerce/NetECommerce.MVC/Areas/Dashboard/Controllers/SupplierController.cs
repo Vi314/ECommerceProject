@@ -30,20 +30,27 @@ namespace NetECommerce.MVC.Areas.Dashboard.Controllers
         [HttpPost]
         public IActionResult Create(SupplierVM supplierVM)
         {
-            Supplier supplier = new Supplier
+            if (ModelState.IsValid)
             {
-                CompanyName = supplierVM.CompanyName,
-                ContactTitle = supplierVM.ContactTitle,
-                ContactNumber = supplierVM.ContactNumber,
-                Address = supplierVM.Address,
-                City = supplierVM.City,
-                Region = supplierVM?.Region,
-                PostalCode = supplierVM.PostalCode,
-                Country = supplierVM.Country
-            };
-            _supplierService.CreateSupplier(supplier);
+                Supplier supplier = new Supplier
+                {
+                    CompanyName = supplierVM.CompanyName,
+                    ContactTitle = supplierVM.ContactTitle,
+                    ContactNumber = supplierVM.ContactNumber,
+                    Address = supplierVM.Address,
+                    City = supplierVM.City,
+                    Region = supplierVM.Region,
+                    PostalCode = supplierVM.PostalCode,
+                    Country = supplierVM.Country
+                };
+                TempData["result"] = _supplierService.CreateSupplier(supplier);
 
-            return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(supplierVM);
+            }
         }
 
         public IActionResult Delete(int id)
@@ -66,7 +73,7 @@ namespace NetECommerce.MVC.Areas.Dashboard.Controllers
         [HttpPost]
         public IActionResult Update(Supplier updatedSupplier)
         {
-            _supplierService.UpdateSupplier(updatedSupplier);
+            TempData["result"] = _supplierService.UpdateSupplier(updatedSupplier);
             return RedirectToAction("Index");
         }
     }

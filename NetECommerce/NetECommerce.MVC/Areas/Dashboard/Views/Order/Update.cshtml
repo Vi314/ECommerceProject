@@ -1,0 +1,48 @@
+﻿@model Order
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="card mt-2 mb-4">
+    <div class="card-header">
+        <h3>Update Order</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Update" asp-controller="Order" method="post">
+
+            <div class="mb-2">
+                <label>DeliveredDate</label>
+                <input type="datetime" class="form-control" asp-for="DeliveredDate" />
+            </div>
+
+            <div class="mb-2">
+                <label>CustomerId</label>
+                <input type="text" class="form-control" asp-for="CustomerId" />
+            </div>
+
+            <div class="mb-2">
+                <label>CustomerName</label>
+                <input type="tel" class="form-control" asp-for="CustomerName" />
+            </div>
+
+            <div class="mb-2">
+                <label>OrderPrice</label>
+                <input type="text" class="form-control" asp-for="OrderPrice" />
+            </div>
+
+            <div class="mb-2">
+                <label>OrderStatus</label>
+                @*<input type="text" class="form-control" asp-for="OrderStatus" />*@
+                <select asp-for="OrderStatus" class="form-control custom-select">
+                    <option>Created</option>
+                <option>InProgress</option>
+                <option>Completed</option>
+                <option>Cancelled</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

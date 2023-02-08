@@ -230,7 +230,9 @@ namespace NetEcommerce.DAL.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CategoryName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<string>("CreatedComputerName")
                         .HasColumnType("nvarchar(max)");
@@ -242,7 +244,10 @@ namespace NetEcommerce.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(2000)")
+                        .HasMaxLength(2000)
+                        .HasDefaultValue("No description");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -271,7 +276,7 @@ namespace NetEcommerce.DAL.Migrations
                         {
                             Id = 1,
                             CategoryName = "Teknoloji",
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 301, DateTimeKind.Local).AddTicks(5445),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 28, DateTimeKind.Local).AddTicks(7939),
                             Description = "teknolojik ürünler",
                             IsActive = true,
                             MasterId = new Guid("00000000-0000-0000-0000-000000000000"),
@@ -282,7 +287,7 @@ namespace NetEcommerce.DAL.Migrations
                         {
                             Id = 2,
                             CategoryName = "Giyim",
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 301, DateTimeKind.Local).AddTicks(5863),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 28, DateTimeKind.Local).AddTicks(8329),
                             Description = "yazlık kışlık giyim ürünleri",
                             IsActive = true,
                             MasterId = new Guid("00000000-0000-0000-0000-000000000000"),
@@ -308,10 +313,13 @@ namespace NetEcommerce.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<DateTime?>("DeliveredDate")
                         .HasColumnType("datetime2");
@@ -348,7 +356,7 @@ namespace NetEcommerce.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 302, DateTimeKind.Local).AddTicks(767),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 33, DateTimeKind.Local).AddTicks(1061),
                             CustomerId = "5",
                             CustomerName = "Ezekiel",
                             IsActive = true,
@@ -361,7 +369,7 @@ namespace NetEcommerce.DAL.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 302, DateTimeKind.Local).AddTicks(1482),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 33, DateTimeKind.Local).AddTicks(1784),
                             CustomerId = "3",
                             CustomerName = "Michelangelo",
                             IsActive = true,
@@ -417,7 +425,10 @@ namespace NetEcommerce.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(2000)")
+                        .HasMaxLength(2000)
+                        .HasDefaultValue("No description");
 
                     b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
@@ -429,7 +440,9 @@ namespace NetEcommerce.DAL.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ProductName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -465,7 +478,7 @@ namespace NetEcommerce.DAL.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 301, DateTimeKind.Local).AddTicks(6585),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 31, DateTimeKind.Local).AddTicks(8533),
                             IsActive = true,
                             MasterId = new Guid("00000000-0000-0000-0000-000000000000"),
                             ProductName = "MSI",
@@ -479,7 +492,7 @@ namespace NetEcommerce.DAL.Migrations
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 301, DateTimeKind.Local).AddTicks(9546),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 32, DateTimeKind.Local).AddTicks(1436),
                             IsActive = true,
                             MasterId = new Guid("00000000-0000-0000-0000-000000000000"),
                             ProductName = "Nike Ayakkabı",
@@ -499,22 +512,32 @@ namespace NetEcommerce.DAL.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1000)")
+                        .HasMaxLength(1000);
 
                     b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<string>("CompanyName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<string>("ContactNumber")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(11)")
+                        .HasMaxLength(11);
 
                     b.Property<string>("ContactTitle")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Country")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<string>("CreatedComputerName")
                         .HasColumnType("nvarchar(max)");
@@ -532,10 +555,14 @@ namespace NetEcommerce.DAL.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("PostalCode")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<string>("Region")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(255)")
+                        .HasMaxLength(255);
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
@@ -563,7 +590,7 @@ namespace NetEcommerce.DAL.Migrations
                             ContactNumber = "420420420",
                             ContactTitle = "ContactTitle",
                             Country = "Hollywood",
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 299, DateTimeKind.Local).AddTicks(6418),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 23, DateTimeKind.Local).AddTicks(4178),
                             IsActive = true,
                             MasterId = new Guid("00000000-0000-0000-0000-000000000000"),
                             PostalCode = "420420",
@@ -580,7 +607,7 @@ namespace NetEcommerce.DAL.Migrations
                             ContactNumber = "420420420",
                             ContactTitle = "ContactTitle",
                             Country = "Bollywood",
-                            CreatedDate = new DateTime(2023, 2, 5, 18, 31, 21, 300, DateTimeKind.Local).AddTicks(4918),
+                            CreatedDate = new DateTime(2023, 2, 8, 16, 16, 54, 24, DateTimeKind.Local).AddTicks(2750),
                             IsActive = true,
                             MasterId = new Guid("00000000-0000-0000-0000-000000000000"),
                             PostalCode = "420420",

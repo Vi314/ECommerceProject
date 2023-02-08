@@ -687,8 +687,14 @@ C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\ne
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Category\Index.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Category\Update.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Home\Index.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Order\Index.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Order\Update.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Product\Create.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Product\Index.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Product\Update.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Supplier\Create.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Supplier\Index.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Supplier\Update.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\_ViewImports.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\MyCart.cshtml.g.cs
@@ -706,8 +712,3 @@ C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\ne
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\NetECommerce.MVC.dll
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\NetECommerce.MVC.pdb
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\NetECommerce.MVC.genruntimeconfig.cache
-C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Product\Update.cshtml.g.cs
-C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Order\Index.cshtml.g.cs
-C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Supplier\Index.cshtml.g.cs
-C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Supplier\Create.cshtml.g.cs
-C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Dashboard\Views\Supplier\Update.cshtml.g.cs
