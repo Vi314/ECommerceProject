@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NetEcommerce.DAL.Context;
 using NetECommerce.BLL.AbstractService;
 using NetECommerce.Common;
 using NetECommerce.Entity.Entity;
 using NetECommerce.MVC.Models;
+using NetECommerce.MVC.ViewModels.Identity;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -15,21 +17,91 @@ namespace NetECommerce.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IProductService productService;
-        private readonly ProjectContext db;
+        private IProductService productService;
+        private ProjectContext db;
+        private UserManager<AppUser> userManager;
+        private SignInManager<AppUser> signInManager;
 
-        public HomeController(IProductService productService,ProjectContext context)
+        public HomeController(IProductService productService,
+                              ProjectContext context,
+                              UserManager<AppUser> userManager,
+                              SignInManager<AppUser> signInManager)
         {
-            this.productService = productService;
             db = context;
+            this.productService = productService;
+            this.userManager = userManager;
+            this.signInManager = signInManager;
         }
 
         public IActionResult Index()
         {
-            ViewBag.Products = db.Products.ToList();
+            ViewBag.Products = productService.GetAllProducts().ToList();
             return View();
         }
 
+        public IActionResult Register()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterVM registerVM)
+        {
+            if (ModelState.IsValid)
+            {
+                 AppUser newUser = new AppUser
+                {
+                    UserName = registerVM.Username,
+                    Email = registerVM.Email,
+
+                };
+                var result = await userManager.CreateAsync(newUser, registerVM.ConfirmPassword);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(registerVM);
+                }
+            }
+            else
+            {
+                return View(registerVM);
+            }
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginVM model)
+        {
+            if (ModelState.IsValid)
+            {
+                AppUser login = await userManager.FindByEmailAsync(model.Email);
+                if (login != null)
+                {
+                    var result = await signInManager.PasswordSignInAsync(login, model.Password, false, false);
+
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        return View(model);
+                    }
+                }
+                else
+                {
+                    return View(model);
+                }
+            }
+            else
+            {
+                return View(model);
+            }
+        }
 
         public IActionResult AddToCart(int id)
         {
@@ -75,6 +147,7 @@ namespace NetECommerce.MVC.Controllers
             }
         }
 
+        #region Error - Privacy
         public IActionResult Privacy()
         {
             return View();
@@ -84,6 +157,7 @@ namespace NetECommerce.MVC.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        } 
+        #endregion
     }
 }

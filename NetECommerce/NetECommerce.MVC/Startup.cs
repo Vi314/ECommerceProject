@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,10 +10,8 @@ using NetECommerce.BLL.Abstract;
 using NetECommerce.BLL.AbstractService;
 using NetECommerce.BLL.Concrete;
 using NetECommerce.BLL.Service;
+using NetECommerce.Entity.Entity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NetECommerce.MVC
 {
@@ -34,14 +32,36 @@ namespace NetECommerce.MVC
             //DbContext
             services.AddDbContext<ProjectContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-
-            //Services
+            //Service Services(someone get a better name please)
             services.AddTransient(typeof(IRepository<>), typeof(BaseRepository<>));
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IOrderService, OrderService>();
-            services.AddScoped<ISupplierService, SupplierService>(); 
+            services.AddScoped<ISupplierService, SupplierService>();
 
+            //Identity
+            services.
+                AddIdentity<AppUser, AppUserRole>().
+                AddEntityFrameworkStores<ProjectContext>();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequiredLength = 4;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+            });
+
+            //Cookies
+            services.ConfigureApplicationCookie(cookie =>
+            {
+                cookie.Cookie.Name = "E-Commerce_LoginCookie";
+                cookie.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
+                cookie.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
+                cookie.SlidingExpiration = true;
+                cookie.ExpireTimeSpan = TimeSpan.FromMinutes(15);
+            });
 
             //Session
             services.AddSession(session =>

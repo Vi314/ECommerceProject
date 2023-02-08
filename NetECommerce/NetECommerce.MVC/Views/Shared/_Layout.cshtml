@@ -20,13 +20,18 @@
         <div class="container px-4 px-lg-5">
             <div class="row col-md-12">
                 <div class="d-flex justify-content-between">
+                    <div>
                     <a class="navbar-brand" asp-action="index" asp-controller="home">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    </div>
+                    <div>
+                    <a class="btn btn-outline-dark" asp-action="Register" asp-controller="Home">Register</a>
+                    <a class="btn btn-outline-dark" asp-action="Login" asp-controller="Home">Login</a>
                     <a class="btn btn-outline-dark" asp-action="MyCart" asp-controller="home">
                         <i class="bi-cart-fill me-1"></i>
                         Cart
                         <span class="badge bg-dark text-white ms-1 rounded-pill">@ViewData["ItemCount"]</span>
                     </a>
+                    </div>
                 </div>
             </div>
         </div>

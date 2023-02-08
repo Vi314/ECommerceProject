@@ -712,3 +712,5 @@ C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\ne
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\NetECommerce.MVC.dll
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\NetECommerce.MVC.pdb
 C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\NetECommerce.MVC.genruntimeconfig.cache
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\Viraldo\Desktop\Project-main\NetECommerce\NetECommerce.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
